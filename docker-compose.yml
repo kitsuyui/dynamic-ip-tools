@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   main:
-    image: kitsuyui/dynamic-ip-tools
+    image: kitsuyui/dynamic-ip-tools:latest@sha256:18c1d94586a24055fc277e5dbedf237f0a0b8da87752234f3be6fc6550a3c64a
     # build: .
     env_file:
       - .env

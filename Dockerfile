@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.6
+FROM gliderlabs/alpine:3.6@sha256:a9a3061c20d21a2c33dd0979ef9a408836fd6416154ff0764dcb9bf1f870c0c5
 
 ENV \
 MYIP_VERSION='v0.3.4' \
