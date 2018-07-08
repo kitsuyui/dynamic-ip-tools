@@ -1,8 +1,8 @@
 version: '3.4'
 services:
   main:
-    image: kitsuyui/dynamic-ip-tools:latest@sha256:00b433c90b3748d0d2d79fdeda2bcbb61b16edaf07ba3f05668a469decbc3fe1
-    # build: .
+    # image: kitsuyui/dynamic-ip-tools:latest
+    build: .
     env_file:
       - .env
     restart: always
